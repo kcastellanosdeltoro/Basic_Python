@@ -2,7 +2,7 @@ import random as r
 import time as t
 
 
-## Function for get 100 random numbers
+## Function for get 5000 random numbers
 def random_numbers():
     return [r.randint(0,500) for i in range(5000)]
 
